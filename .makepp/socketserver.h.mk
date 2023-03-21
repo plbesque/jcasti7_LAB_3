@@ -1,0 +1,6 @@
+INCLUDES=socket.h
+LIBS=
+C_MD5_SUM=xC2ZIifcvduCrlnBh7FP6Q
+SIGNATURE=1678760069,412
+SYSTEM_INCLUDES=sys/select.h sys/time.h unistd.h
+END=

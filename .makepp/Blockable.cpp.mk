@@ -1,0 +1,6 @@
+INCLUDES=Blockable.h errno.h stdio.h
+C_MD5_SUM=YpES1tGlVHneUiKs8vBuEQ
+LIBS=
+SYSTEM_INCLUDES=algorithm iostream
+SIGNATURE=1678760069,3516
+END=

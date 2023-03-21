@@ -1,0 +1,15 @@
+SIG_METHOD_NAME=C
+ARCH=x86_64-linux-gnu-thread-multi
+CWD=.
+IMPLICIT_DEPS=Blockable.oServer.osocket.osocketserver.othread.oliblibrt
+COMMAND=g++ -o Server Server.o thread.o socket.o socketserver.o Blockable.o -pthread -l rt
+INCLUDE_SFXS=lib.la.so.sa.a.sl
+META_DEPS=/usr/bin/g++
+DEP_SIGS=1678859954,656001678859955,28881651350594,8629761678859954,555121678859955,226001678859956,48744
+SORTED_DEPS=Blockable.oServer.o/usr/bin/g++socket.osocketserver.othread.o
+BUILD_SIGNATURE=1678859956,80960
+IMPLICIT_TARGETS=Server
+INCLUDE_PATHS=lib/usr/local/lib/usr/lib/libsys/usr/local/include/usr/includeuser/usr/local/include/usr/include
+SIG_METHOD_IMPLICIT=1
+SIGNATURE=1678859956,80960
+END=

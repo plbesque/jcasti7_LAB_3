@@ -1,0 +1,215 @@
+3/usr/bin/makepp
+VERSION2.0.98.55.34.0x86_64-linux-gnu-thread-multi
+DEBUG0
+LOAD55f1acbdaa18Makefile55f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_355f1acdf54a8
+TRY55f1acbdaa18
+USEdefault rule
+DEPEND55f1acbdaa18
+UP_TO_DATE55f1acbdaa18
+LOAD_INCL55f1acbdaf10makepp_builtin_rules.mk55f1acbd2c10/usr/share/makepp55f1acbdaa18
+LOAD_END55f1acbdaa18
+TRY55f1acbdaee0all55f1acdf54a8
+USEdefault rule
+DEPEND55f1acbdaee055f1ad5d0540Client55f1acdf54a855f1ad5d07f8Server55f1acdf54a8
+TRY55f1ad5d0540
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:3
+SCAN_INFO55f1ad5d0540
+LEX_RULE55f1ad5d0540info not cached
+PARSEg++ -o Client Client.o socket.o Blockable.o -pthread -l rt55f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:3
+TRY55f1ad6620a0g++55f1ad661fc8/usr/bin
+USEdefault rule
+DEPEND55f1ad6620a0
+UP_TO_DATE55f1ad6620a0
+DEPEND55f1ad5d054055f1ad5d08e8Blockable.o55f1acdf54a855f1ad5d0678Client.o55f1acdf54a855f1ad6620a055f1ad5dcb58socket.o55f1acdf54a8
+TRY55f1ad5d08e8
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:12
+SCAN_INFO55f1ad5d08e8
+LEX_RULE55f1ad5d08e8info not cached
+PARSEg++ -c Blockable.cpp -std=c++1155f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:12
+TRY55f1ad5f5740Blockable.cpp55f1acdf54a8
+USEdefault rule
+DEPEND55f1ad5f5740
+UP_TO_DATE55f1ad5f5740
+INCL55f1ad5f574055f1ad5f5470Blockable.h55f1acdf54a8
+TRY55f1ad5f5470
+USEdefault rule
+DEPEND55f1ad5f5470
+UP_TO_DATE55f1ad5f5470
+INCL55f1ad5f574055f1ad6ba720errno.h55f1ad64b040/usr/include
+TRY55f1ad6ba720
+USEdefault rule
+DEPEND55f1ad6ba720
+UP_TO_DATE55f1ad6ba720
+INCL55f1ad5f574055f1ad6b2f10stdio.h55f1ad64b040
+TRY55f1ad6b2f10
+USEdefault rule
+DEPEND55f1ad6b2f10
+UP_TO_DATE55f1ad6b2f10
+INCL55f1ad5f547055f1ad6966f8in.h55f1ad6b6cc8/usr/include/netinet
+TRY55f1ad6966f8
+USEdefault rule
+DEPEND55f1ad6966f8
+UP_TO_DATE55f1ad6966f8
+INCL55f1ad5f547055f1ad6973d0inet.h55f1ad6b9d00/usr/include/arpa
+TRY55f1ad6973d0
+USEdefault rule
+DEPEND55f1ad6973d0
+UP_TO_DATE55f1ad6973d0
+INCL55f1ad5f547055f1ad6be008unistd.h55f1ad64b040
+TRY55f1ad6be008
+USEdefault rule
+DEPEND55f1ad6be008
+UP_TO_DATE55f1ad6be008
+DEPEND55f1ad5d08e855f1ad5f574055f1ad5f547055f1ad6ba72055f1ad6620a055f1ad6966f855f1ad6973d055f1ad6b2f1055f1ad6be008
+BUILD_NONE55f1ad5d08e8
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:1255f1ad5d08e8
+TRY55f1ad5d0678
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:6
+SCAN_INFO55f1ad5d0678
+LEX_RULE55f1ad5d0678info not cached
+PARSEg++ -c Client.cpp -std=c++1155f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:6
+TRY55f1ad5f51b8Client.cpp55f1acdf54a8
+USEdefault rule
+DEPEND55f1ad5f51b8
+UP_TO_DATE55f1ad5f51b8
+INCL55f1ad5f51b855f1ad5f5248socket.h55f1acdf54a8
+TRY55f1ad5f5248
+USEdefault rule
+DEPEND55f1ad5f5248
+UP_TO_DATE55f1ad5f5248
+INCL55f1ad5f51b855f1ad6ba210stdlib.h55f1ad64b040
+TRY55f1ad6ba210
+USEdefault rule
+DEPEND55f1ad6ba210
+UP_TO_DATE55f1ad6ba210
+INCL55f1ad5f51b855f1ad6b04f8time.h55f1ad64b040
+TRY55f1ad6b04f8
+USEdefault rule
+DEPEND55f1ad6b04f8
+UP_TO_DATE55f1ad6b04f8
+INCL55f1ad5f524855f1ad6966f8
+INCL55f1ad5f524855f1ad6973d0
+INCL55f1ad5f524855f1ad5f5470
+INCL55f1ad5f547055f1ad6973d0
+INCL55f1ad5f547055f1ad6966f8
+INCL55f1ad5f547055f1ad6be008
+DEPEND55f1ad5d067855f1ad5f547055f1ad5f51b855f1ad6620a055f1ad6966f855f1ad6973d055f1ad5f524855f1ad6ba21055f1ad6b04f855f1ad6be008
+BUILD_NONE55f1ad5d0678
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:655f1ad5d0678
+TRY55f1ad5dcb58
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:21
+SCAN_INFO55f1ad5dcb58
+LEX_RULE55f1ad5dcb58info not cached
+PARSEg++ -c socket.cpp -std=c++1155f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:21
+TRY55f1ad5f5620socket.cpp55f1acdf54a8
+USEdefault rule
+DEPEND55f1ad5f5620
+UP_TO_DATE55f1ad5f5620
+INCL55f1ad5f562055f1ad6ad7c0strings.h55f1ad64b040
+TRY55f1ad6ad7c0
+USEdefault rule
+DEPEND55f1ad6ad7c0
+UP_TO_DATE55f1ad6ad7c0
+INCL55f1ad5f562055f1ad6be008
+INCL55f1ad5f562055f1ad6ba720
+INCL55f1ad5f562055f1ad5f5248
+INCL55f1ad5f524855f1ad5f5470
+INCL55f1ad5f524855f1ad6973d0
+INCL55f1ad5f524855f1ad6966f8
+INCL55f1ad5f547055f1ad6973d0
+INCL55f1ad5f547055f1ad6966f8
+INCL55f1ad5f547055f1ad6be008
+DEPEND55f1ad5dcb5855f1ad5f547055f1ad6ba72055f1ad6620a055f1ad6966f855f1ad6973d055f1ad5f562055f1ad5f524855f1ad6ad7c055f1ad6be008
+BUILD_NONE55f1ad5dcb58
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:2155f1ad5dcb58
+BUILD_NONE55f1ad5d0540
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:355f1ad5d0540
+TRY55f1ad5d07f8
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:9
+SCAN_INFO55f1ad5d07f8
+LEX_RULE55f1ad5d07f8info not cached
+PARSEg++ -o Server Server.o thread.o socket.o socketserver.o Blockable.o -pthread -l rt55f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:9
+DEPEND55f1ad5d07f855f1ad5d08e855f1ad5d0a38Server.o55f1acdf54a855f1ad6620a055f1ad5dcb5855f1ad5dcc90socketserver.o55f1acdf54a855f1ad5d0b58thread.o55f1acdf54a8
+TRY55f1ad5d0a38
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:15
+SCAN_INFO55f1ad5d0a38
+LEX_RULE55f1ad5d0a38info not cached
+PARSEg++ -c Server.cpp -std=c++1155f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:15
+TRY55f1ad5f5500Server.cpp55f1acdf54a8
+USEdefault rule
+DEPEND55f1ad5f5500
+UP_TO_DATE55f1ad5f5500
+INCL55f1ad5f550055f1ad5f2e70thread.h55f1acdf54a8
+TRY55f1ad5f2e70
+USEdefault rule
+DEPEND55f1ad5f2e70
+UP_TO_DATE55f1ad5f2e70
+INCL55f1ad5f550055f1ad5f5350socketserver.h55f1acdf54a8
+TRY55f1ad5f5350
+USEdefault rule
+DEPEND55f1ad5f5350
+UP_TO_DATE55f1ad5f5350
+INCL55f1ad5f550055f1ad6ba210
+INCL55f1ad5f550055f1ad6b04f8
+INCL55f1ad5f2e7055f1ad6ba210
+INCL55f1ad5f2e7055f1ad6b04f8
+INCL55f1ad5f2e7055f1ad5f5470
+INCL55f1ad5f535055f1ad5f5248
+INCL55f1ad5f535055f1ad6be008
+INCL55f1ad5f547055f1ad6973d0
+INCL55f1ad5f547055f1ad6966f8
+INCL55f1ad5f547055f1ad6be008
+INCL55f1ad5f524855f1ad6973d0
+INCL55f1ad5f524855f1ad6966f8
+INCL55f1ad5f524855f1ad5f5470
+DEPEND55f1ad5d0a3855f1ad5f547055f1ad5f550055f1ad6620a055f1ad6966f855f1ad6973d055f1ad5f524855f1ad5f535055f1ad6ba21055f1ad5f2e7055f1ad6b04f855f1ad6be008
+BUILD_NONE55f1ad5d0a38
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:1555f1ad5d0a38
+TRY55f1ad5dcc90
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:24
+SCAN_INFO55f1ad5dcc90
+LEX_RULE55f1ad5dcc90info not cached
+PARSEg++ -c socketserver.cpp -std=c++1155f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:24
+TRY55f1ad5f53e0socketserver.cpp55f1acdf54a8
+USEdefault rule
+DEPEND55f1ad5f53e0
+UP_TO_DATE55f1ad5f53e0
+INCL55f1ad5f53e055f1ad5f5350
+INCL55f1ad5f53e055f1ad6ad7c0
+INCL55f1ad5f53e055f1ad6ba720
+INCL55f1ad5f535055f1ad6be008
+INCL55f1ad5f535055f1ad5f5248
+INCL55f1ad5f524855f1ad6973d0
+INCL55f1ad5f524855f1ad6966f8
+INCL55f1ad5f524855f1ad5f5470
+INCL55f1ad5f547055f1ad6973d0
+INCL55f1ad5f547055f1ad6966f8
+INCL55f1ad5f547055f1ad6be008
+DEPEND55f1ad5dcc9055f1ad5f547055f1ad6ba72055f1ad6620a055f1ad6966f855f1ad6973d055f1ad5f524855f1ad5f53e055f1ad5f535055f1ad6ad7c055f1ad6be008
+BUILD_NONE55f1ad5dcc90
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:2455f1ad5dcc90
+TRY55f1ad5d0b58
+USE/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:18
+SCAN_INFO55f1ad5d0b58
+LEX_RULE55f1ad5d0b58info not cached
+PARSEg++ -c thread.cpp -std=c++1155f1acdf54a8/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:18
+TRY55f1ad5f56b0thread.cpp55f1acdf54a8
+USEdefault rule
+DEPEND55f1ad5f56b0
+UP_TO_DATE55f1ad5f56b0
+INCL55f1ad5f56b055f1ad5f2e70
+INCL55f1ad5f56b055f1ad6be008
+INCL55f1ad5f2e7055f1ad5f5470
+INCL55f1ad5f2e7055f1ad6ba210
+INCL55f1ad5f2e7055f1ad6b04f8
+INCL55f1ad5f547055f1ad6973d0
+INCL55f1ad5f547055f1ad6966f8
+INCL55f1ad5f547055f1ad6be008
+DEPEND55f1ad5d0b5855f1ad5f547055f1ad6620a055f1ad6966f855f1ad6973d055f1ad6ba21055f1ad5f56b055f1ad5f2e7055f1ad6b04f855f1ad6be008
+BUILD_NONE55f1ad5d0b58
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:1855f1ad5d0b58
+BUILD_NONE55f1ad5d07f8
+SUCCESS/home/vboxuser/Desktop/jcasti7_LAB_3/Makefile:955f1ad5d07f8
+SUCCESSdefault rule55f1acbdaee0
+*** warning: There is no rule to build inexistent /home/vboxuser/Desktop/jcasti7_LAB_3/all
+N_FILES810

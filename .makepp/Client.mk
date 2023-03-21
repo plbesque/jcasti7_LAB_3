@@ -1,0 +1,15 @@
+IMPLICIT_DEPS=Blockable.oClient.osocket.oliblibrt
+COMMAND=g++ -o Client Client.o socket.o Blockable.o -pthread -l rt
+META_DEPS=/usr/bin/g++
+INCLUDE_SFXS=lib.la.so.sa.a.sl
+SIG_METHOD_NAME=C
+ARCH=x86_64-linux-gnu-thread-multi
+CWD=.
+BUILD_SIGNATURE=1678859955,59960
+DEP_SIGS=1678859954,656001678859954,28401651350594,8629761678859954,55512
+SORTED_DEPS=Blockable.oClient.o/usr/bin/g++socket.o
+INCLUDE_PATHS=lib/usr/local/lib/usr/lib/libsys/usr/local/include/usr/includeuser/usr/local/include/usr/include
+SIG_METHOD_IMPLICIT=1
+SIGNATURE=1678859955,59960
+IMPLICIT_TARGETS=Client
+END=
